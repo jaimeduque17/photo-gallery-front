@@ -2,7 +2,7 @@
 Front-end project connected with a back-end project that allows the user read, create, update, delete and search pictures, as well as agroup the pictures in albums and create new albums too.
 
 ## Description
-ReactJS Single Page App demo which has the following features:
+ReactJS project which has the following features:
 1. Search: When a user enters a word, it should be able to get a list of pictures if there are exist in the DB.
 2. Filter: The user has the possibility of filter pictures by album. 
 3. CRUD: The user can create, read, update or delete pictures, as well as create albums. 
