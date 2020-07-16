@@ -19,7 +19,7 @@ const Card = ({
     }
 
     return (
-        <div className="card card-shadow">
+        <div className="card card-shadow mb-3">
             <div className="card-header name">{picture.name}</div>
             <div className="card-body">
                 <ShowImage item={picture} url="picture" />
