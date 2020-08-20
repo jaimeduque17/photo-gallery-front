@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import Layout from '../components/Layout';
-import { createPicture, getAlbums } from './ApiAdmin';
+import { createPicture, getAlbums } from '../config/ApiAdmin';
 
 const AddPicture = () => {
 

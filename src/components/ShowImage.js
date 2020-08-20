@@ -1,5 +1,5 @@
 import React from 'react';
-import { API } from '../config';
+import { API } from '../config/config';
 
 const ShowImage = ({ item, url }) => {
     return (

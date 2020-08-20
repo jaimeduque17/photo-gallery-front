@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getAlbums, list } from '../pages/ApiCore';
+import { getAlbums, list } from '../config/ApiCore';
 import Card from './Card';
 
 const Search = () => {

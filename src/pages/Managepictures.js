@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
-import { getPictures, deletePicture } from './ApiAdmin';
+import { getPictures, deletePicture } from '../config/ApiAdmin';
 
 const ManagePictures = () => {
 

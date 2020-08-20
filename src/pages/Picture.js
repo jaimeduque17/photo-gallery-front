@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
-import { read, listRelated } from './ApiCore';
+import { read, listRelated } from '../config/ApiCore';
 import Card from '../components/Card';
 
 const Picture = (props) => {

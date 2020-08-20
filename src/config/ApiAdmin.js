@@ -1,4 +1,4 @@
-import { API } from '../config';
+import { API } from './config';
 
 export const createAlbum = album => {
     return fetch(`${API}/album/create`, {

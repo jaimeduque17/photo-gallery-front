@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
-import { getPictures } from './ApiCore';
+import { getPictures } from '../config/ApiCore';
 import Card from '../components/Card';
 import Search from '../components/Search';
 

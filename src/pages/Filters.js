@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import Card from '../components/Card';
 import Checkbox from '../components/Checkbox';
-import { getAlbums, getFilteredPictures } from './ApiCore';
+import { getAlbums, getFilteredPictures } from '../config/ApiCore';
 
 const Filters = () => {
 
